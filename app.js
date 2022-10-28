@@ -11,7 +11,7 @@ var woodenRouter = require('./routes/wooden')
 
 var mongoose = require('mongoose')
 var url =
-    'mongodb://localhost:27017/demo'
+    'mongodb+srv://huyhayho0110:quanghuy%402002@cluster0.srvfoih.mongodb.net/demo'
 
 mongoose.connect(url, { useNewUrlParser: true }, err => {
     if (!err) {
