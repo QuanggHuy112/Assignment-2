@@ -5,7 +5,9 @@ var ParadigmSchema = new mongoose.Schema({
     image: String,
     name: String,
     price : Number,
-    status : String
+    status : String,
+    stocked : Boolean,
+    notstk : Boolean
 }, {
     versionKey: false //optional (to remove _v: 0 when add new data)
 })
