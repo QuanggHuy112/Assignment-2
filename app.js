@@ -38,8 +38,8 @@ app.set('view engine', 'hbs')
 //Module dùng cho trao đổi dữ liệu API với front-end
 //Note: cần cài đặt package "cors" trước
 //cmd: npm install cors
-var cors = require('cors')
-app.use(cors())
+// var cors = require('cors')
+// app.use(cors())
 
 
 app.use(logger('dev'))
