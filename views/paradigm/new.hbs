@@ -33,6 +33,7 @@
          <br>
          Red <input type="radio" name="color" value="Red">
          Blue <input type="radio" name="color" value="Blue">
+         White <input type="radio" name="color" value="White">
          {{#equal student.gender "Red"}}
          Red <input type="radio" name="color" value="Red" checked>
          Blue <input type="radio" name="color" value="Blue">
@@ -40,6 +41,11 @@
          {{#equal student.gender "Blue"}}
          Red <input type="radio" name="color" value="Red">
          Blue <input type="radio" name="color" value="Blue" checked>
+         {{/equal}}
+         {{#equal student.gender "White"}}
+         Red <input type="radio" name="color" value="Red" checked>
+         Blue <input type="radio" name="color" value="Blue">
+         White <input type="radio" name="color" value="White">
          {{/equal}}
       </div>
 
