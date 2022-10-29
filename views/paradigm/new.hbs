@@ -34,18 +34,33 @@
          Red <input type="radio" name="color" value="Red">
          Blue <input type="radio" name="color" value="Blue">
          White <input type="radio" name="color" value="White">
-         {{#equal student.gender "Red"}}
+         Yellow <input type="radio" name="color" value="Yellow">
+         Gray <input type="radio" name="color" value="Gray">
+         {{#equal Paradigm.gender "Red"}}
          Red <input type="radio" name="color" value="Red" checked>
          Blue <input type="radio" name="color" value="Blue">
          {{/equal}}
-         {{#equal student.gender "Blue"}}
+         {{#equal Paradigm.gender "Blue"}}
          Red <input type="radio" name="color" value="Red">
          Blue <input type="radio" name="color" value="Blue" checked>
          {{/equal}}
-         {{#equal student.gender "White"}}
+         {{#equal Paradigm.gender "White"}}
          Red <input type="radio" name="color" value="Red" checked>
          Blue <input type="radio" name="color" value="Blue">
          White <input type="radio" name="color" value="White">
+         {{/equal}}
+         {{#equal Paradigm.gender "Yellow"}}
+         Red <input type="radio" name="color" value="Red" checked>
+         Blue <input type="radio" name="color" value="Blue">
+         White <input type="radio" name="color" value="White">
+         Yellow <input type="radio" name="color" value="Yellow">
+         {{/equal}}
+         {{#equal Paradigm.gender "Gray"}}
+         Red <input type="radio" name="color" value="Red" checked>
+         Blue <input type="radio" name="color" value="Blue">
+         White <input type="radio" name="color" value="White">
+         Yellow <input type="radio" name="color" value="Yellow">
+         Gray <input type="radio" name="color" value="Gray">
          {{/equal}}
       </div>
 
